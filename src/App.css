@@ -1,3 +1,8 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 nav {
   height: 90px;
   background-color: #7180bf;
@@ -6,6 +11,7 @@ nav {
 nav div i {
   margin-right: 20px;
 }
+
 nav .avatar {
   border-radius: 50%;
   height: 50px;
@@ -16,4 +22,72 @@ img {
   border-radius: 50%;
   height: 30px;
   width: 30px;
+}
+
+.chart-container {
+  width: 99%;
+  margin: 60px 10px;
+}
+
+.fintech-button {
+  background-color: #f0f1f6;
+  border-color: #f0f1f6;
+  border: none;
+  color: #7180bf;
+  border-radius: 10px;
+}
+
+.currency-button {
+  background-color: #ececec;
+  border-color: #ececec;
+  border: none;
+  padding: 5px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.chart-button {
+  border-radius: 30px;
+}
+
+.each-row {
+  /* width: 100%; */
+  border-bottom: 1px #d8d8d8 solid;
+}
+.each-row span {
+  width: 50%;
+}
+
+.fintech-table div span {
+  align-content: flex-end;
+}
+
+.percent-text {
+  color: #4d8355;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.tip-container {
+  background-color: #ececec;
+  border-radius: 20px;
+}
+
+.tip-container .text-justify {
+  background-color: #ececec;
+  border-radius: 20px;
+  font-weight: 300;
+}
+
+.tip-image {
+  height: 50px;
+  width: 50px;
+}
+
+.broken-lines div {
+  background-color: #d8d8d8;
+  height: 2px;
+  width: 50px;
+  margin-right: 20px;
+  margin-top: 18px;
 }
