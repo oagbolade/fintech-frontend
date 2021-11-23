@@ -71,7 +71,7 @@ function App() {
           </div>
         </div>
 
-        <div className="mx-5 col-md-3 col-sm-12 p-2">
+        <div className="mx-lg-5 col-md-3 col-sm-12 p-2">
           <div className="p-4 each-row d-flex justify-content-between">
             <h5 className="mt-2">Options</h5>
             <div className="">
@@ -115,14 +115,14 @@ function App() {
           </div>
         </div>
 
-        <div className="ml-2 col-md-4 col-sm-12 p-2">
+        <div className="pb-5 mx-2 col-md-4 col-sm-12 p-2">
           <h5 className="py-4">Tips</h5>
           <div className="tip-container p-5">
             <div className="d-flex justify-content-between">
               <h6>Gold is up 20%</h6>
               <img className="tip-image" src={gold} alt="loading" />
             </div>
-            <div className="text-justify">
+            <div className="mt-4 text-justify">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
               dapibus sodales justo, eget blandit eros suscipit nec. Integer
               pharetra purus non aliquet convallis. Proin dui ex, facilisis nec

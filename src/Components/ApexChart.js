@@ -44,8 +44,15 @@ class ApexChart extends Component {
         },
         responsive: [
           {
-            breakpoint: undefined,
-            options: {},
+            breakpoint: 500,
+            options: {
+              chart: {
+                width: 350,
+              },
+              legend: {
+                show: false,
+              },
+            },
           },
         ],
       },
