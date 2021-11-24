@@ -16,7 +16,8 @@ function App() {
   });
 
   useEffect(() => {
-    const baseURL = "http://127.0.0.1:8001/api";
+    const baseURL = "https://fintech-oladayo.herokuapp.com/api";
+    // const baseURL = "http://127.0.0.1:8001/api";
     const URL = `${baseURL}/get/stocks/options`;
     axios
       .get(URL)
